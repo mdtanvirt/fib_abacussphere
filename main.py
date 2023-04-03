@@ -4,7 +4,6 @@ import json
 import pandas as pd
 
 survey = ss.StreamlitSurvey("Survey Example - Advanced Usage")
-#pages = survey.pages(2, on_submit=lambda: st.success("Your responses have been recorded. Thank you!"))
 pages_test = survey.pages(10, on_submit=lambda: st.success("Your responses have been recorded. Thank you Tanvir!"))
 
 with pages_test:
